@@ -1,0 +1,79 @@
+h1 {color: aqua;
+     margin-left:30;
+     padding-left: 30;
+     padding-right: 30;
+}
+
+.header{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header *{
+    border:solid;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: coral;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #123143;
+}
+
+p,h2{
+    text-align: center;
+    background-color: #adabce;
+}
+
+.para{
+    background-color: #2a3d45;
+}
+
+body{
+    background-color: #000000;
+}
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: silver;
+}
+
+.menu{
+    margin-right: 50;
+}
+
+.menu a{
+    margin-left: 20;
+    margin-right: 20;
+}
+
+.games{
+    position: relative;
+}
+
+.games p{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-30,-30);
+    opacity: 0;
+}
+
+.games:hover p{
+    opacity: 1;
+}
+
+.games:hover img{
+    opacity: 0.34 ;
+}
